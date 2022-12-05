@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>En la tienda</title>
+    <link rel="icon" type="image/x-icon" href="img/logo-landing.png">
+
+    <!-- Bootstrap y otras librerías -->
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/jquery.smartcart/css/smart_cart.min.css">
+    <link rel="stylesheet" href="vendors/jquery.owl-carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/jquery.owl-carousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="vendors/jquery.whatsapp/venom-button.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+    <!-- Estilos  -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body class="body-carrito">
+  <!-- NAV BAR    -->
+    <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-md bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand order-md-1" href="index.html"><img src="img/logowebsite.png" alt="logo"></a>
+
+            <a class="nav-link text-bg-dark ms-4 me-2 order-md-3" href="#">
+                <img src="img/carrito.png" alt="Mi carrito">
+            </a>
+
+            <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse order-md-2" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="enlatienda.html">Hacé tu pedido</a>
+                    </li>
+                    <li class="navbar-nav nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="productos.html#cafeEnGranos">Café en granos</a></li>
+                        <li><a class="dropdown-item" href="productos.html#cafeMolido">Café molido</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" href="index.html#nosotros">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" href="index.html#contactanos">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <header class="text-center bg-light p-3">
+        <h1>Realizá tu orden</h1>
+    </header>
+      
+    <section class="container">
+        <div class="row">
+            <div class="col-md-9 order-2 order-md-1">
+                <h2 class="mt-4 fw-bold">Menú</h2>
+
+                <div id="cafeDeEspecialidad" class="row">
+                    <h3 class="mt-3 mb-0">Cafe de Especialidad</h3>
+                    <!-- Acá vienen los productos -->
+                </div>
+
+                <div id="cafesFrios" class="row">
+                    <h3 class="mt-5 mb-0">Cafés Fríos</h3>
+                    <!-- Acá vienen los productos -->
+                </div>
+
+                <div id="desayunosPromos" class="row">
+                    <h3 class="mt-5 mb-0">Desayunos / Promos </h3>
+                    <!-- Acá vienen los productos -->
+                </div>
+
+                <div id="jugosNaturales" class="row">
+                    <h3 class="mt-5 mb-0">Jugos Naturales </h3>
+                    <!-- Acá vienen los productos -->
+                </div>
+
+                <div id="pasteleria" class="row">
+                    <h3 class="mt-5 mb-0">Pastelería</h3>
+                    <!-- Acá vienen los productos -->
+                </div>
+            </div>
+
+            <div class="pedido col-md-3 order-1 order-md-2">
+                <h2 class="mt-5">Mi pedido</h2>
+
+                <div id="smartcart" class="smartcart"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="p-4 p-md-5 mt-5 bg-dark">
+        <div class="d-flex justify-content-end">
+          <a href="https://www.instagram.com/rondddocafe/?hl=es" target="new">
+            <img src="img/Instagram-rondó.png" alt="Instagram" width="40px" height="40px">
+          </a>
+          <a href="https://es-la.facebook.com/rondddo/" target="new">
+            <img src="img/Facebook-rondó.png" alt="Facebook" width="40px" height="40px">
+          </a>
+          <a href="https://www.tiktok.com" target="new">
+            <img src="img/Tic-toc-rondó.png" alt="Tik Tok" width="40px" height="40px">
+          </a>
+        </div>
+      </footer>
+
+    <div id="whatsapp">
+
+    </div>
+
+
+    <!-- JavaScript, Bootstrap, jQuery -->
+    <script src="vendors/jquery/jquery-3.6.1.min.js"></script>
+    <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendors/jquery.smartcart/js/jquery.smartCart.js"></script>
+    <script src="vendors/jquery.owl-carousel/owl.carousel.min.js"></script>
+    <script src="vendors/jquery.whatsapp/venom-button.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
+    <!-- Scripts -->
+    <script src="js/enlatienda-array.js"></script>
+    <script src="js/enlatienda-script.js"></script>
+    
+    <script>
+    
+        $('#whatsapp').venomButton({
+            phone : '541140730227',
+            chatMessage:'Hacé tu pedido',
+            message:'¡Hola! Este es el pedido de la mesa ' + Math.ceil(Math.random() * 10) + ': ',
+            nameClient:"jQuery Script",
+            showPopup:true
+            })
+
+
+        $('#carrito')._submitCart({
+            
+        })
+
+    </script>
+
+</body>
+
+</html>

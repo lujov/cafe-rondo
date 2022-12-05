@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*
+
+.boton-1{
+    background-image: url(../img/botonWeb.png);
+    width: 488px;
+    height: 381px;
+}
+
+.boton-2{
+    background-image: url(../img/botonLocal.png);
+    width: 488px;
+    height: 381px;
+}
+
+.botonWeb {
+    text-decoration: none;
+    color: white;
+    font-size: 1.8em;
+    
+}
+
+.botonTienda {
+    text-decoration: none;
+    font-size: 1.8em;
+    color: black;
+    font-weight: 500;
+}
+
+.botonWeb:hover {
+    color: white;
+    font-weight: 600;
+}
+
+.botonTienda:hover {
+    color: black;
+    font-weight: 700;
+}
+*/
+
+.body-index{
+    padding-top: 70px;
+    
+}
+
+.body-carrito{
+    padding-top: 48px;
+    
+}
+
+.carrusel{
+    z-index: 99;
+}
+
+
+
+#nuestros-granos button{
+    border:0.1em solid #000000;
+    border-radius: 5em;
+    font-weight:600;
+    color:#000000;
+}
+
+
+#nuestros-granos {
+    background-color: #E8CCA9;
+}
+
+.parrafo-cafe{
+    padding: 0 15%;
+}
+
+footer a {
+    text-decoration: none;
+    padding-left: 2rem;
+}
+
+.img-banner{
+    display: none;
+}
+
+.pedido{
+    border-bottom: #aeaeae 1px solid;
+}
+
+.smartcart{
+    padding-bottom: 5%;
+}
+
+@media (min-width:768px){
+    .pedido{
+        border-bottom: none;
+        border-left: #aeaeae 1px solid;
+    }
+    
+}
+
+@media (min-width:914px){
+    .img-banner{
+        display: block;
+    }
+}
+
+@media (min-width:1046px){
+    .texto-sobreN{
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width:1230px){
+    .texto-sobreN{
+        font-size: 1.4em;
+    }
+}

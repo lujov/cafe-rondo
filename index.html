@@ -1,0 +1,261 @@
+</a><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Rondó</title>
+    <link rel="icon" type="image/x-icon" href="img/logo-landing.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="vendors/jquery.owl-carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/jquery.owl-carousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="vendors/jquery.whatsapp/venom-button.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    
+    <link rel="stylesheet" href="css/estilos.css">
+
+
+</head>
+
+<body class="body-index">
+  <!-- NAV BAR    -->
+
+  <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-md bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="img/logowebsite.png" alt="logo"></a>
+      <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="enlatienda.html">Hacé tu pedido</a>
+            </li>
+            <li class="navbar-nav nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="productos.html#cafeEnGranos">Café en granos</a></li>
+                  <li><a class="dropdown-item" href="productos.html#cafeMolido">Café molido</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#nosotros">Sobre nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contactanos">Contacto</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <h1 class="text-center my-4">CAFÉ RONDO</h1>
+    
+    <div class="carrusel bg-dark text-bg-dark">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img src="img/banner1.png" alt="">
+        </div>
+        <div class="item"> 
+          <img src="img/banner2.png" alt="">
+        </div>
+        <div class="item"> 
+          <img src="img/banner3.png" alt="">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="bg-dark text-bg-dark text-center fst-italic fs-4 py-4 ">
+    <p>"El café huele a cielo recién molido"</p>
+  </div>
+      
+  <!--    SOBRE NOSOTROS    -->
+  <section class="container-fluid" id="nosotros">
+    <div class="row">
+      <div class="col-12 col-md-6 d-flex"> 
+        <div>
+          <img src="img/banner 1.png" alt="*" class="h-100 img-banner">
+        </div>
+        <div class="mx-4 mt-3 mt-md-4">
+          <h2 class="mb-2 mb-md-4">Sobre Nosotros</h2>
+          <p class="texto-sobreN">Siguiendo exigentes estándares de calidad, supervisamos todas y cada una de las etapas de producción: desde la exclusiva mezcla de granos cuidadosamente seleccionados; el proceso de cata: procedimiento quepermite encontrar y valorar todas las características sensoriales que definen un buen café; el tipo de tostado, factor imprescindible ya que aportará el grado de acidez exacto, y su correcto almacenaje.
+          </p>
+        </div>
+
+      </div>
+      <div class="col-12 col-md-6 p-0">
+        <a data-fancybox data-src="img/sobrenosotros.png" data-caption="Hello world">
+          <img src="img/sobrenosotros.png" alt="Una foto del local o del equipo" class="w-100">
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!--    NUESTROS GRANOS    -->
+  <section class="container-fluid" id="nuestros-granos" >
+    <h2 class="text-center py-4">Nuestros Blends</h2>
+    <ul class="nav nav-pills mb-5 justify-content-center" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active mx-2" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Perú</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link mx-2" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Colombia</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+      <!--PILL 1-->
+      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+        <div class="row">
+          <div class="col-12 col-md-6 text-center">
+            <img class="mb-3" src="img/Granos de café.png" alt="Cafe icono" width="">
+            <h3 class="text-center">Torrado Intenso</h3>
+            <p class="mb-5 parrafo-cafe">Mezcla de granos para paladares intensos. Ideal para prepararlo con leche o solo, nuca perderá su esencia.</p>
+          </div>
+          <div class="col-12 col-md-6 text-center">
+            <img class="mb-3" src="img/Granos de café.png" alt="Cafe icono">
+            <h3>Tostado Orgánico</h3>
+            <p class="mb-5 parrafo-cafe">Exclusiva mezcla de granos, ideal para saborear un auténtico espresso o con leche de almendras. Excelente para dietas sin azúcar.</p>
+          </div>
+        </div>
+      </div>
+      <!--PILL 2-->
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+        <div class="row">
+          <div class="col-12 col-md-6 text-center">
+            <img class="mb-3" src="img/Granos de café.png" alt="Cafe icono">
+            <h3>Torrado Intenso 2 </h3>
+            <p class="mb-5 parrafo-cafe">Mezcla de granos para paladares intensos. Ideal para prepararlo con leche.</p>
+          </div>
+          <div class="col-12 col-md-6 text-center">
+            <img class="mb-3"  src="img/Granos de café.png" alt="Cafe icono">
+            <h3>Tostado Orgánico 2 </h3>
+            <p class="mb-5 parrafo-cafe">Exclusiva mezcla de granos, ideal para saborear un auténtico espresso.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!--    POR QUÉ ELEGIRNOS    -->
+  <section class="container-fluid bg-dark" id="elegirnos">
+    <div class="row d-flex">
+      <div class="col-12 col-md-6 px-0">
+        <a data-fancybox data-src="img/Brunch.png" data-caption="Hello world">
+          <img src="img/Brunch.png" alt="Foto de la comida" class="w-100">
+        </a>
+      </div>
+      <div class="col-12 col-md-6 d-flex">
+        <div class="text-light p-4 ">
+          <h2 class="pb-4">Por qué Elegirnos</h2>
+          <p class="texto-sobreN">Siguiendo exigentes estándares de calidad, supervisamos todas y cada una de las etapas de producción: desde la exclusiva mezcla de granos cuidadosamente seleccionados; el proceso de cata: procedimiento que permite encontrar y valorar todas las características sensoriales que definen un buen café; el tipo de tostado, factor imprescindible ya que aportará el grado de acidez exacto, y su correcto almacenaje.</p>
+        </div>
+        <div>
+          <img src="img/contorno banner.png" alt="*" class="h-100 img-banner">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--    CONTACTO    -->
+
+  <section class="container-fluid" id="contactanos">
+    <div class="p-4">
+      <div class="row mt-5 justify-content-between">
+        <div class="col-12 col-md-6 pb-4">
+          <h3 class="pb-4">Contactanos</h3>
+          <div class="mb-3 col-10">
+            <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Juan Perez">
+          </div>
+          <div class="mb-3 col-10">
+              <label for="exampleFormControlInput2" class="form-label" >Dirección email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="nombre@ejemplo.com" required>
+          </div>
+          <div class="mb-3 col-10">
+              <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Tu mensaje" rows="8"></textarea>
+          </div>
+          <button type="button" class="btn btn-primary">Consultar</button>
+        </div>
+
+        <div class="col-12 col-md-6"> 
+          <h3 class="pb-4">Nuestro Local</h3>
+          <div class="ratio ratio-4x3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6760.91405263296!2d-58.39209417791547!3d-34.59854744268964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb8031cd6d19%3A0xe1add1b4e0c98ebe!2sRond%C3%B3%20Cafe!5e0!3m2!1ses!2sar!4v1667909540729!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+ 
+      </div>
+    </div>
+  </section>
+  
+  <footer class="p-4 p-md-5 bg-dark">
+    <div class="d-flex justify-content-end">
+      <a href="https://www.instagram.com/rondddocafe/?hl=es" target="new">
+        <img src="img/Instagram-rondó.png" alt="Instagram" width="40px" height="40px">
+      </a>
+      <a href="https://es-la.facebook.com/rondddo/" target="new">
+        <img src="img/Facebook-rondó.png" alt="Facebook" width="40px" height="40px">
+      </a>
+      <a href="https://www.tiktok.com" target="new">
+        <img src="img/Tic-toc-rondó.png" alt="Tik Tok" width="40px" height="40px">
+      </a>
+    </div>
+  </footer>
+
+  <div id="whatsapp">
+
+  </div>
+
+
+  <!-- mundo jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <!-- jquery de owl-carousel -->
+  <script src="vendors/jquery.owl-carousel/owl.carousel.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  
+  <script src="vendors/jquery.whatsapp/venom-button.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+  <!-- activador del owl carrousel y whatsapp -->
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      responsiveClass:true,
+      responsive:{
+        0:{
+          items:1,
+          nav:true
+        },
+        600:{
+          items:1,
+          nav:false
+        },
+        1000:{
+          items:1,
+          nav:true,
+          loop:false
+        }
+      }
+    })
+
+
+    $('#whatsapp').venomButton({
+      phone : '541140730227',
+      chatMessage:'Hacé tu pedido',
+      message:"¡Hola! Este es el pedido de la mesa 7: ",
+      nameClient:"jQuery Script",
+      showPopup:true
+    })
+  </script>
+  
+  
+</body>
+</html>
